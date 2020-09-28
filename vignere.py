@@ -28,8 +28,8 @@ def originalText(cipher_text, key):
 	return("" . join(orig_text)) 
 
 if __name__ == "__main__": 
-	string = "GEEKSFORGEEKS"
-	keyword = "AYUSH"
+	string = "helloshraddhasaini"
+	keyword = "ASHISH"
 	key = generateKey(string, keyword) 
 	cipher_text = cipherText(string,key) 
 	print("Ciphertext :", cipher_text) 
